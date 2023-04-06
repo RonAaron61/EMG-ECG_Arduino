@@ -1,5 +1,9 @@
 # EMG-ECG_Arduino
-Making EMG and ECG sensor that can be used wth arduino 
+Making EMG (and ECG) sensor with adjutable gain that can be used wth arduino 
+
+## Abstract
+
+abstract
 
 ## What is EMG
 
@@ -20,6 +24,7 @@ For this project I will use AD620 for the pre-amp, and LM358 to amplified it aga
 The filters I will be using are a bandpass filter and a twin-T notch filter
 
 Component used:
+
 IC:
 - AD620
 - LM358
@@ -38,10 +43,17 @@ Capacitor:
 Other:
 - Diode (1)
 - Header pin
+- LM7660 module (you can also use MC34063A positive to negative module)
 
 ## Schematic
 
 ![image](https://user-images.githubusercontent.com/105662575/230431272-f255fd6e-2072-4f44-befe-1e2e16d4b5c6.png)
+
+test
+
+### PCB design
+
+pcb
 
 ## Result
 
