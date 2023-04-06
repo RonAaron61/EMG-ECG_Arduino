@@ -47,9 +47,22 @@ Other:
 
 ## Schematic
 
-![image](https://user-images.githubusercontent.com/105662575/230431272-f255fd6e-2072-4f44-befe-1e2e16d4b5c6.png)
+![image](https://user-images.githubusercontent.com/105662575/230433740-66e69df7-06c8-4c78-a9b2-340de5f24794.png)
 
-test
+->
+- R3 -> 330 Ω
+- R4 -> 330 Ω
+- R5 -> 1 kΩ
+- R6 -> 4.7 kΩ
+- R7 -> 4.7 kΩ
+- R8 -> 1 kΩ
+- R9 -> 220 Ω
+
+The band pass consist of HPF (High Pass Filter) and LPF (Low Pass Filter), for the HPF the Fc (cut-off frequency) is 2.2 Hz, and for LPF the Fc is 482 Hz. For the notch filter I used the Twin-T notch filter to fltered 50 Hz powerline noise and get the Fc around 47.88 Hz
+
+### Prototype
+
+(Image)
 
 ### PCB design
 
