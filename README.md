@@ -13,60 +13,55 @@ But in this case I want to make EMG sensor that can measure if there's muscles a
 
 ## How to make
 
-The basic of EMG sensor is first we will capture signal data through the surface of the skin using electrodes, then the signal will be amplified. after the signal is amplified, the signal needs to be filtered, generally the filter is done in the form of a bandpass and/or notchpass filter, because EMG signals are generally in the range 0-500 Hz so a bandpass filter is needed, and to remove powerline noise (50/60 Hz) a notch filter is needed. after going through the filter, the signal will be amplified again.
+The basic of EMG sensor is first we will capture signal data through the surface of the skin using electrodes, then the signal will be amplified. after the signal is amplified, the signal needs to be filtered, generally the filter is done in the form of a bandpass and/or notchpass filter, because EMG signals are generally in the range 0-500 Hz so a bandpass filter is needed, after going through the filter, the signal will be amplified again.
 
-(Image of flowchart) (Signal -> pre-amp -> filter -> amplifer -> out)
 
 ## Component
 
 For this project I will use AD620 for the pre-amp, and LM358 to amplified it again
 
-The filters I will be using are a bandpass filter and a twin-T notch filter
+The filters I will be using are a bandpass filter
 
 Component used:
 
 IC:
-- AD620
-- LM358
+- AD620 (instrument amplifier)
+- LM358 (Op-Amp)
 
 Resistor:
-- 4.7 kΩ (2)
-- 1 kΩ (2)
+- 10 kΩ (2)
 - 330 Ω (2)
-- 220 Ω (1)
-- Trimpot (I used 50 kΩ and 10 kΩ)
+- 33 kΩ (1)
+- Trimpot or potentiometer (I used 50 kΩ)
 
 Capacitor:
-- 1 uF (4)
+- 10 nF (1)
+- 10 uF (1)
 - 220 uF (1)
 
 Other:
 - Diode (1)
-- Header pin
 - LM7660 module (you can also use MC34063A positive to negative module)
 
 ## Schematic
 
-![image](https://user-images.githubusercontent.com/105662575/230433740-66e69df7-06c8-4c78-a9b2-340de5f24794.png)
+![image](https://user-images.githubusercontent.com/105662575/234283722-94559312-6164-4e0a-9ef0-4037cd8fb142.png)
 
 ->
-- R3 -> 330 Ω
-- R4 -> 330 Ω
-- R5 -> 1 kΩ
-- R6 -> 4.7 kΩ
-- R7 -> 4.7 kΩ
-- R8 -> 1 kΩ
-- R9 -> 220 Ω
+- R1 -> 330 Ω
+- R2 -> 50 kΩ trimpot
+- R3 -> 33 kΩ
+- R4, R5 -> 10 kΩ
+- C1 -> 220 uF
+- C2 -> 10 nF
+- C3 -> 10 uF
 
-The band pass consist of HPF (High Pass Filter) and LPF (Low Pass Filter), for the HPF the Fc (cut-off frequency) is 2.2 Hz, and for LPF the Fc is 482 Hz. For the notch filter I used the Twin-T notch filter to fltered 50 Hz powerline noise and get the Fc around 47.88 Hz
+The band pass consist of HPF (High Pass Filter) and LPF (Low Pass Filter), for the HPF the Fc (cut-off frequency) is around 2.2 Hz, and for LPF the Fc is 482 Hz. 
 
 ### Prototype
 
 (Image)
 
-### PCB design
-
-pcb
 
 ## Result
 
