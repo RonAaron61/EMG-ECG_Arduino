@@ -64,6 +64,8 @@ G = (49.4 kΩ / Rg) + 1
 
 I set the trimpot in 2.5 kΩ so the gain I use is around 21x 
 
+*other option is to used INA128/INA129 IC that is also instrument amplifier. but using this is IC is a little bit pricey, but you can also make your own instrument amplifier using 3 op-amp 
+
 
 #### Band Pass Filter
 
@@ -83,7 +85,7 @@ If you want to remove 50 Hz/60 Hz noise caused by power line you can add notch f
 
 ![Dokumen 7_2](https://user-images.githubusercontent.com/105662575/234292294-a64a65ab-149f-4ad1-adb7-fae0b3fe7e1a.jpg)
 
-or if you want to use other value for the resistor and capacitor you can play with it, I find this [{website}](http://sim.okawa-denshi.jp/en/TwinTCRkeisan.htm) that you can use to calculate the value of resistor/capacitor or the frequency. 
+or if you want to use other value for the resistor and capacitor you can play with it, I find this [website](http://sim.okawa-denshi.jp/en/TwinTCRkeisan.htm) that you can use to calculate the value of resistor/capacitor or the frequency. 
 
 
 ### Prototype
@@ -91,7 +93,7 @@ or if you want to use other value for the resistor and capacitor you can play wi
 ![IMG_20230425_203051](https://user-images.githubusercontent.com/105662575/234293371-a444c702-f697-49a7-96c6-6d64cd500c35.jpg)
 
 
-### Cdoe
+### Code
 
 
 
