@@ -81,14 +81,18 @@ In the Output-1 I connect it with voltage divider so the signal is on 2.5 V offs
 
 If you want to remove 50 Hz/60 Hz noise caused by power line you can add notch filter to remove it. You can use Twin T notch filter to use it. To filter 50 Hz noise you can use as follow:
 
-![Dokumen 7_2](https://user-images.githubusercontent.com/105662575/234292101-1a886cae-05f1-4cd0-9901-5713cd3ea2a6.jpg)
+![Dokumen 7_2](https://user-images.githubusercontent.com/105662575/234292294-a64a65ab-149f-4ad1-adb7-fae0b3fe7e1a.jpg)
 
 or if you want to use other value for the resistor and capacitor you can play with it, I find this [{website}](http://sim.okawa-denshi.jp/en/TwinTCRkeisan.htm) that you can use to calculate the value of resistor/capacitor or the frequency. 
 
 
 ### Prototype
 
-(Image)
+![IMG_20230425_203051](https://user-images.githubusercontent.com/105662575/234293371-a444c702-f697-49a7-96c6-6d64cd500c35.jpg)
+
+
+### Cdoe
+
 
 
 ## Result
