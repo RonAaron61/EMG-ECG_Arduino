@@ -56,7 +56,18 @@ Other:
 - C2 -> 10 nF
 - C3 -> 10 uF
 
-The band pass consist of HPF (High Pass Filter) and LPF (Low Pass Filter), for the HPF the Fc (cut-off frequency) is around 2.2 Hz, and for LPF the Fc is 482 Hz. 
+The band pass consist of HPF (High Pass Filter) and LPF (Low Pass Filter), for the HPF the Fc (cut-off frequency) is around 2.2 Hz, and for LPF the Fc is 480 Hz. The band pass filter also amplified the signal by 100 gain as shown below
+
+![Dokumen 6_2](https://user-images.githubusercontent.com/105662575/234286106-dc7a7b0a-7a6c-499e-833d-6aa2df8b0442.jpg)
+
+
+on the output after the bandpass filter I make two output, one with voltage divider and one with diode connected. 
+
+In the Output-1 I connect it with voltage divider so the signal is on 2.5 V offset (so the signal is on the middle of the graph), use this if you want to see the full signal (negative and positive signal) especially for ECG signal. If you just want to see the positive signal use the diode, personally I use this to view the EMG signal because I find this easier to read and to program to control servo motor, because I just use the peak (positive) signal
+
+Example:
+
+(image)
 
 ### Prototype
 
