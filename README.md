@@ -76,9 +76,15 @@ on the output after the bandpass filter I make two output, one with voltage divi
 
 In the Output-1 I connect it with voltage divider so the signal is on 2.5 V offset (so the signal is on the middle of the graph), use this if you want to see the full signal (negative and positive signal) especially for ECG signal. If you just want to see the positive signal use the diode, personally I use this to view the EMG signal because I find this easier to read and to program to control servo motor, because I just use the peak (positive) signal
 
-Example:
 
-(image)
+#### Notch filter (optional)
+
+If you want to remove 50 Hz/60 Hz noise caused by power line you can add notch filter to remove it. You can use Twin T notch filter to use it. To filter 50 Hz noise you can use as follow:
+
+![Dokumen 7_2](https://user-images.githubusercontent.com/105662575/234292101-1a886cae-05f1-4cd0-9901-5713cd3ea2a6.jpg)
+
+or if you want to use other value for the resistor and capacitor you can play with it, I find this [{website}](http://sim.okawa-denshi.jp/en/TwinTCRkeisan.htm) that you can use to calculate the value of resistor/capacitor or the frequency. 
+
 
 ### Prototype
 
