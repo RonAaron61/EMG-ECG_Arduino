@@ -56,6 +56,17 @@ Other:
 - C2 -> 10 nF
 - C3 -> 10 uF
 
+#### AD620
+
+The AD620 is an instrument amplifier with adjustable gain, I connected the gain pin (Rg) to trimpot to adjust the gain more easily. The formula to find the gain is as follow:
+
+G = (49.4 kΩ / Rg) + 1
+
+I set the trimpot in 2.5 kΩ so the gain I use is around 21x 
+
+
+#### Band Pass Filter
+
 The band pass consist of HPF (High Pass Filter) and LPF (Low Pass Filter), for the HPF the Fc (cut-off frequency) is around 2.2 Hz, and for LPF the Fc is 480 Hz. The band pass filter also amplified the signal by 100 gain as shown below
 
 ![Dokumen 6_2](https://user-images.githubusercontent.com/105662575/234286106-dc7a7b0a-7a6c-499e-833d-6aa2df8b0442.jpg)
