@@ -88,15 +88,20 @@ If you want to remove 50 Hz/60 Hz noise caused by power line you can add notch f
 or if you want to use other value for the resistor and capacitor you can play with it, I find this [website](http://sim.okawa-denshi.jp/en/TwinTCRkeisan.htm) that you can use to calculate the value of resistor/capacitor or the frequency. 
 
 
-### Prototype
+## Prototype
 
 ![IMG_20230425_203051](https://user-images.githubusercontent.com/105662575/234293371-a444c702-f697-49a7-96c6-6d64cd500c35.jpg)
 
 
-### Code
 
+## Code
+
+The code is basically just read the analog value from arduino. but I make a couple of code for a couple of other function, like smoothing the value, find the peak value, and calculate BPM (for ECG). 
 
 
 ## Result
 
-result
+### EMG
+
+
+### ECG
