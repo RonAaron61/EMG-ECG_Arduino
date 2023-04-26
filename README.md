@@ -66,6 +66,7 @@ I set the trimpot in 2.5 kΩ so the gain I use is around 21x
 
 *other option is to used INA128/INA129 IC that is also instrument amplifier. but using this is IC is a little bit pricey, but you can also make your own instrument amplifier using 3 op-amp 
 
+
 ### Positive to negative module
 
 Because the IC need positive and negatiive supply, I use LM7660 module, you can also use MC34063A that has a slight bigger size, but the output can be ajusted
@@ -74,11 +75,9 @@ LM7660
 
 ![image](https://user-images.githubusercontent.com/105662575/234635494-133956fe-4ea8-449d-a049-3a4419dc896b.png)
 
-
 MC34063A
 
 ![image](https://user-images.githubusercontent.com/105662575/234635298-1e3a20fe-8ddc-4677-81eb-de586c9f1805.png)
-
 
 
 #### Band Pass Filter
