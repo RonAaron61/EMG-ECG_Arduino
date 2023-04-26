@@ -93,10 +93,14 @@ or if you want to use other value for the resistor and capacitor you can play wi
 ![IMG_20230425_203051](https://user-images.githubusercontent.com/105662575/234293371-a444c702-f697-49a7-96c6-6d64cd500c35.jpg)
 
 
-
 ## Code
 
 The code is basically just read the analog value from arduino. but I make a couple of code for a couple of other function, like smoothing the value, find the peak value, and calculate BPM (for ECG). 
+
+List of Code
+- EMG_basic -> the basic code to read analog input, find the average for smoothing, and find only the peak/upper value
+- EMG_Servo_basic -> same like EMG_basic but it also control servo motor if the signal is above certain threshold
+- ECG_BPM -> same like EMG_Basic but it also calculate the BPM based on every peak R ECG value
 
 
 ## Result
@@ -107,14 +111,18 @@ The code is basically just read the analog value from arduino. but I make a coup
 
 ![EMG tangan](https://user-images.githubusercontent.com/105662575/234627769-1b81ad8c-8d87-4e6d-a296-f156eb753e6f.png)
 
-Here you can see that I flexing my muscle twice, same goews for the output with diode
+Here you can see that I flexing my muscle twice, same goes for the output with diode
 
 
 ##### Output2 using diode
 
 ![EMG tangan 2](https://user-images.githubusercontent.com/105662575/234627974-0884ab47-e64a-4a12-aa0b-207c4fba27a1.png)
 
-Electrode placement
+#### Electrode placement
+
+The two above picture is from my forearm flexor muscle, you can play it with other muscle
+
+![IMG_20230426_223524](https://user-images.githubusercontent.com/105662575/234632026-d9774090-1476-4349-af30-461f0e6657e4.jpg)
 
 
 
@@ -126,4 +134,4 @@ ECG electrode placement
 
 ![ecgele](https://user-images.githubusercontent.com/105662575/234630562-79c33175-7705-4935-a1dc-6befc6b3f2d0.png)
 
-for the ground electrode you can place it anywhere (I place it near one of the electrode)
+for the ground electrode you can place it anywhere (I place it near one of the electrode), if you find the signal to be weird or upside down just switch the negative and positive electrode position
