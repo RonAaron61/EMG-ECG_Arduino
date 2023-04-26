@@ -73,11 +73,11 @@ Because the IC need positive and negatiive supply, I use LM7660 module, you can 
 
 LM7660
 
-![image](https://user-images.githubusercontent.com/105662575/234635494-133956fe-4ea8-449d-a049-3a4419dc896b.png)
+<img src="https://user-images.githubusercontent.com/105662575/234635494-133956fe-4ea8-449d-a049-3a4419dc896b.png" width = "400" height = "400">
 
 MC34063A
 
-![image](https://user-images.githubusercontent.com/105662575/234635298-1e3a20fe-8ddc-4677-81eb-de586c9f1805.png)
+<img src="https://user-images.githubusercontent.com/105662575/234635298-1e3a20fe-8ddc-4677-81eb-de586c9f1805.png" width = "400" height = "400">
 
 
 #### Band Pass Filter
