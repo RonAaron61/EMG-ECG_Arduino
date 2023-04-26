@@ -122,7 +122,7 @@ Here you can see that I flexing my muscle twice, same goes for the output with d
 
 The two above picture is from my forearm flexor muscle, you can play it with other muscle
 
-![IMG_20230426_223524](https://user-images.githubusercontent.com/105662575/234632026-d9774090-1476-4349-af30-461f0e6657e4.jpg = 450x450)
+<img src="https://user-images.githubusercontent.com/105662575/234632026-d9774090-1476-4349-af30-461f0e6657e4.jpg" width = "450" height = "450">
 
 
 
