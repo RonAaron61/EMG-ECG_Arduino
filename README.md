@@ -103,5 +103,27 @@ The code is basically just read the analog value from arduino. but I make a coup
 
 ### EMG
 
+##### Output1 using voltage divider
+
+![EMG tangan](https://user-images.githubusercontent.com/105662575/234627769-1b81ad8c-8d87-4e6d-a296-f156eb753e6f.png)
+
+Here you can see that I flexing my muscle twice, same goews for the output with diode
+
+
+##### Output2 using diode
+
+![EMG tangan 2](https://user-images.githubusercontent.com/105662575/234627974-0884ab47-e64a-4a12-aa0b-207c4fba27a1.png)
+
+Electrode placement
+
+
 
 ### ECG
+
+![2023-04-26 22_33_16-COM7](https://user-images.githubusercontent.com/105662575/234628257-16f6a69b-07eb-4b90-baab-1ffef494c723.png)
+
+ECG electrode placement
+
+![ecgele](https://user-images.githubusercontent.com/105662575/234630562-79c33175-7705-4935-a1dc-6befc6b3f2d0.png)
+
+for the ground electrode you can place it anywhere (I place it near one of the electrode)
