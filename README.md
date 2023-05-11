@@ -148,3 +148,11 @@ ECG electrode placement
 ![ecgele](https://user-images.githubusercontent.com/105662575/234630562-79c33175-7705-4935-a1dc-6befc6b3f2d0.png)
 
 for the ground electrode you can place it anywhere (I place it near one of the electrode), if you find the signal to be weird or upside down just switch the negative and positive electrode position
+
+
+### Implementing
+
+Implementing the EMG ass a trigger to move robotic hand
+
+https://github.com/RonAaron61/EMG-ECG_Arduino/assets/105662575/808ef353-eee9-4b23-ba01-43bb9515f76c
+
