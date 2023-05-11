@@ -152,7 +152,7 @@ for the ground electrode you can place it anywhere (I place it near one of the e
 
 ### Implementing
 
-Implementing the EMG ass a trigger to move robotic hand
+Implementing the EMG as the trigger to move robotic hand
 
 https://github.com/RonAaron61/EMG-ECG_Arduino/assets/105662575/808ef353-eee9-4b23-ba01-43bb9515f76c
 
